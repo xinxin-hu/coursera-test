@@ -13,55 +13,48 @@
 			border: 1px solid black;
 			
 			padding: 10px;
-			padding-top: 60px;
+			padding-top: 40px;
+			
 			background-color: #DEB887;
 			/*the width is going to take up only 90 % of the grid*/
 			height: 200px;
-		    width:80%;
+		    width:100%;
 			font-family: Helvetica;
 			color: white;
 		}		 
-        /*div #container{
-           position:relative;
-          
-           padding: 0;
-       	   background-color: maroon;
-       	   margin-bottom: 15px;
-       	   margin-right: 5px;
-       	   margin-left:5px;
-       	   height:200px;
-       	  
-       	   
-       	   
-       }*/
-       #sectionTitle1,#sectionTitle2,#sectionTitle3{
+       
+       #sectionTitle1, #sectionTitle2, #sectionTitle3{
           
           padding:5px;
-          width:15%;
-          height:30px;
-          left:165px;
-          top:30px;
+          width:90%;
+          margin-top:20px;
+          height:200px;
           
           position: relative;
        }
-       #sectionTitle1{
-       	  background-color: #5F9EA0;
-       	}
-       #sectionTitle2{
-          background-color: #A52A2A;
-          
-       }
-       #sectionTitle3{
-          background-color: #FF7550;
-       }
+      
+
        #sectionTitle1 span,#sectionTitle2 span,#sectionTitle3 span{
+       		border: .5px solid #000;
 			position:absolute;
-		
+			top:5px;
+			right:5px;
+		    
 			text-align: center;
 			
 			
             font-size:1em;
 		}
+		#sectionTitle1 span{
+       	  background-color: #5F9EA0;
+       	}
+       #sectionTitle2 span{
+          background-color: #A52A2A;
+          
+       }
+       #sectionTitle3 span{
+          background-color: #FF7550;
+       }
 
        .row{
        	width: 100%;
